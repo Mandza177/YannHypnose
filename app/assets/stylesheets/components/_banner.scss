@@ -1,0 +1,27 @@
+.banner{
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 200px 0px;
+  }
+
+  .banner h1 {
+  margin: 0;
+  color: white;
+  text-shadow: 1px 1px 3px black;
+  font-size: 50px;
+  font-weight: bold;
+  color: #F0A500;
+  margin-bottom: 32px;
+  $body-font: "Oleo Sript", "cursive";
+  }
+
+  .banner p {
+  font-size: 30px;
+  color: #DBDBDB;
+  opacity: .7;
+  text-shadow: 1px 1px 3px black;
+  font-family: "Dancing Script", "cursive";
+  }
