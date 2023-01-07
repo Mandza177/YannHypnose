@@ -1,16 +1,27 @@
 // Specific CSS for your home-page
 .container{
-background-color: black;
-height: 5000px;
-color: #F0A500;
+  background-color: black;
+  height: 5000px;
+  color: #F0A500;
 
+  .citation{
+  display: flex;
+  justify-content: center;
+  font-size: 32px;
+  margin-top: 32px;
+  font-family: $headers-font;
+  }
 }
 
 a{
 display: flex;
-justify-content: space-around;
+  justify-content: space-around;
 }
 
 body{
   background: black;
+}
+
+.header{
+  justify-content: center;
 }
