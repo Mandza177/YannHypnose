@@ -13,6 +13,8 @@
 
 .navbar {
   color: #F0A500;
+  position: sticky;
+  top: 0;
   }
 
   .nav-link:hover{
@@ -25,17 +27,6 @@
     }
 
   /* Page content */
-.content {
-  padding: 16px;
-}
+
 
   /* The sticky class is added to the navbar with JS when it reaches its scroll position */
-.sticky {
-  position: fixed;
-  top: 0;
-  width: 100%;
-}
-
-.sticky + .content {
-  padding-top: 60px;
-}
