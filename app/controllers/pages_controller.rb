@@ -13,4 +13,7 @@ class PagesController < ApplicationController
 
   def tarif
   end
+
+  def mention
+  end
 end
