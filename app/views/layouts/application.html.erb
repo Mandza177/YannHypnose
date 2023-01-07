@@ -8,6 +8,7 @@
 
     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
     <%= javascript_include_tag "application", "data-turbo-track": "reload", defer: true %>
+
       <div class="navbar navbar-expand-sm navbar-light navbar-lewagon">
         <div class="container-fluid">
           <%= link_to "/", class: "navbar-brand" do %>
@@ -23,4 +24,5 @@
   <body>
     <%= yield %>
   </body>
+  
 </html>
