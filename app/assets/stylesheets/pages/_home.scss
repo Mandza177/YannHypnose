@@ -1,9 +1,8 @@
 // Specific CSS for your home-page
 .container{
   background-color: black;
-  height: 5000px;
+  height: 2000px;
   color: #F0A500;
-
 }
 
 a{
@@ -13,6 +12,8 @@ display: flex;
 
 body{
   background: black;
+  display: flex;
+  flex-direction: column;
 }
 
 .header{
@@ -41,3 +42,48 @@ h1{
 h2{
   text-align: center;
 }
+
+.space{
+  padding-top: 2rem !important;
+  padding-bottom: 2rem !important;
+}
+
+.horaires{
+  margin-left: 67px;
+}
+
+.infos{
+  margin-left: 48px;
+}
+
+
+.footer {
+  border-top: 1px solid #FFB100;
+  background: #222222;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 70px;
+  padding: 0px 50px;
+  color: #F0A500;
+  border-radius: 5px;
+}
+.footer-links {
+  display: flex;
+  align-items: center;
+}
+.footer-links a {
+  color: #F0A500;
+  text-decoration: none;
+  font-size: 24px;
+  padding: 0px 10px;
+}
+.footer-links a:hover {
+  opacity: 1;
+  color:black
+}
+
+ul{
+  padding-left: 0rem;
+}
+

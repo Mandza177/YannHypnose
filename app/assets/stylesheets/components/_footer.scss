@@ -1,22 +1,64 @@
-.footer{
-  background: black;
+footer{
+  border-top: 1px solid #F0A500;
+  width: 100%;
+  background: #222222;
+  color: #F0A500;
+  flex-shrink: 0;
   display: flex;
-  align-items: center;
   justify-content: center;
-  justify-content: space-between;
-  height: 100px;
-  padding: 0px 50px;
-  color: #F0A500;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
-.footer-links {
+.contenu-footer{
+  width: 100%;
+  margin: 0 auto;
   display: flex;
-  align-items: center;
+  justify-content: center;
+  align-items: flex-start;
+  font-size: 20px;
+  padding: 43px 0 0px;
 }
 
-.footer-links a {
-  color: #F0A500;
-  text-decoration: none;
-  font-size: 24px;
-  padding: 0px 10px;
+.bloc{
+  width: 100%;
+  margin: 0 30px;
+}
+
+.footer-contact h3,
+.footer-about h3,
+.footer-horaires h3{
+  font-size: 25px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.footer-contact h3 {
+  margin-left: -87px;
+}
+
+.footer-about h3{
+  margin-left: 47px;
+}
+
+.footer-contact li{
+  padding: 3px 0;
+}
+
+.liste-contact,
+.liste-about,
+.liste-horaires{
+  list-style-type: none;
+}
+
+.liste-horaires ul{
+  padding-left: 51px;
+}
+
+img{
+  margin-right: 21px;
+  width: 34px;
+}
+
+.date{
+  margin-right: 35px;
 }
