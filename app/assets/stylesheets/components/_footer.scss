@@ -14,7 +14,7 @@ footer{
 .liste-about,
 .liste-horaires{
   list-style-type: none;
-  font-size: 14px;
+  font-size: 20px;
   margin-left: 2px;
 }
 
@@ -49,4 +49,10 @@ strong{
 .list_about{
 display: flex;
 justify-content: flex-start;
+}
+
+.contact {
+  display: flex;
+  text-align: start;
+  flex-direction: column;
 }
