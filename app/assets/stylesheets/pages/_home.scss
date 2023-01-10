@@ -1,7 +1,7 @@
 // Specific CSS for your home-page
 .container{
   background-color: black;
-  height: 2000px;
+  height: 760px;
   color: #F0A500;
 }
 
@@ -87,3 +87,14 @@ ul{
   padding-left: 0rem;
 }
 
+
+
+.btn btn-primary btn-floating m-1 a{
+  width: 40px;
+}
+
+.mention{
+  display: flex;
+  justify-content: center;
+  padding-top: 17px;
+}

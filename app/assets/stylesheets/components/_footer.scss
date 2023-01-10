@@ -1,64 +1,52 @@
 footer{
   border-top: 1px solid #F0A500;
+  border-bottom: 1px solid #F0A500;
   width: 100%;
   background: #222222;
   color: #F0A500;
   flex-shrink: 0;
   display: flex;
   justify-content: center;
-  grid-template-columns: 1fr 1fr 1fr;
-}
 
-.contenu-footer{
-  width: 100%;
-  margin: 0 auto;
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  font-size: 20px;
-  padding: 43px 0 0px;
-}
-
-.bloc{
-  width: 100%;
-  margin: 0 30px;
-}
-
-.footer-contact h3,
-.footer-about h3,
-.footer-horaires h3{
-  font-size: 25px;
-  padding-bottom: 20px;
-  text-align: center;
-}
-
-.footer-contact h3 {
-  margin-left: -87px;
-}
-
-.footer-about h3{
-  margin-left: 47px;
-}
-
-.footer-contact li{
-  padding: 3px 0;
 }
 
 .liste-contact,
 .liste-about,
 .liste-horaires{
   list-style-type: none;
+  font-size: 14px;
+  margin-left: 2px;
 }
 
-.liste-horaires ul{
-  padding-left: 51px;
+.bloc footer-contact a:hover{
+  opacity: 3;
+  color:black
 }
 
-img{
-  margin-right: 21px;
-  width: 34px;
+strong{
+  margin-left: 6px;
+  display: flex;
+  padding-bottom: 15px;
 }
 
-.date{
-  margin-right: 35px;
+.about{
+  size: 30px;
+  align-items: center;
+}
+
+.abouts{
+  margin-left: 2px;
+}
+
+.row{
+  display: flex;
+}
+
+.col-md-2 col-lg-2 col-xl-2 mx-auto mt-3{
+  text-align: center;
+}
+
+.list_about{
+display: flex;
+justify-content: flex-start;
 }
