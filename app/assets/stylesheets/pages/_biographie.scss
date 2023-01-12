@@ -1,0 +1,47 @@
+h1{
+  margin-bottom: 2px;
+}
+
+.roundimage img{
+margin: auto;
+width: 50%;
+border-radius: 50%;
+display: block;
+margin-top: 20px;
+margin-bottom: 70px;
+}
+
+.space{
+  padding-top: 2rem !important;
+  padding-bottom: 2rem !important;
+}
+
+.presentation{
+  font-family: $body-font;
+  background-color: #191919;
+  border-radius: 10px;
+  font-size: 24px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+
+  ul {
+    list-style-type: none;
+  }
+}
+
+.reservation{
+  font-family: $body-font;
+  background-color: #191919;
+  border-radius: 10px;
+  font-size: 24px;
+  text-align: center;
+  height: auto;
+
+  ul {
+    list-style-type: none;
+  }
+
+}
