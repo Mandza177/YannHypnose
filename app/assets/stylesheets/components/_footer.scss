@@ -16,9 +16,9 @@ footer{
   margin-left: 2px;
 }
 
-.bloc footer-contact a:hover{
+a:hover{
   opacity: 3;
-  color:black
+  color:white;
 }
 
 strong{
@@ -39,6 +39,7 @@ strong{
 .row{
   display: flex;
   --bs-gutter-x: -0.5rem;
+  margin-bottom: 10px;
 }
 
 .col-md-2 col-lg-2 col-xl-2 mx-auto mt-3{
