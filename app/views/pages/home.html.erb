@@ -42,10 +42,9 @@
 <section class="space">
 </section>
 
-<div class="container">
+<%# <!-- Grid container --> %>
+<div class="container p-4 pb-0">
   <footer>
-    <%# <!-- Grid container --> %>
-    <div class="container p-4 pb-0">
       <!-- Section: Links -->
       <section class="foot">
         <!--Grid row-->
@@ -62,7 +61,7 @@
                 </ul>
           </div>
 
-          <hr class="w-100 clearfix d-md-none" />
+          <hr class="w-70 clearfix d-md-none" />
 
           <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
             <h3><strong>Les Cabinets</strong></h3>
@@ -73,9 +72,9 @@
                 </ul>
           </div>
 
-          <hr class="w-100 clearfix d-md-none" />
+          <hr class="w-70 clearfix d-md-none" />
 
-            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+            <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
               <h3><strong>Les Horaires</strong></h3>
                 <ul class="liste-horaires">
                   <li>Lundi 9H00-20H00</li>
@@ -86,7 +85,9 @@
                 </ul>
             </div>
 
-            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+            <hr class="w-70 clearfix d-md-none" />
+
+            <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
               <h3><strong>Pour me suivre</strong></h3>
 
 
@@ -102,10 +103,6 @@
                 href="https://github.com/Mandza177"><i class="fab fa-github" role="button" ></i>
                 </a>
 
-                <a class="btn btn-primary btn-floating m-1" style="background-color: #fA0"
-                href="https://www.linkedin.com/in/yann-lecocq-dev-fullstack/" role="button"><i class="fa-brands fa-linkedin"></i>
-                </a>
-
                 <a class="btn btn-primary btn-floating m-1" style="background-color: #FA0"
                 href="https://www.youtube.com/channel/UCN5KM6QS0w8BQpudeJYpn2A"role="button"><i class="fa-brands fa-square-youtube"></i>
                 </a>
@@ -114,7 +111,6 @@
             </div>
         </div>
       </section>
-    </div>
   </footer>
   <div class="mention">
     <a class="list_about"<%= link_to "Mentions légales", mention_path %>
