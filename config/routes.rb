@@ -3,8 +3,8 @@ Rails.application.routes.draw do
   get "/contact", to: "pages#contact"
   get "/biographie", to: "pages#biographie"
   get "/hypnose", to: "pages#hypnose"
-  get "/tarif", to: "pages#tarif"
   get "/mention", to: "pages#mention"
+  get "/tarif", to: "pages#tarif"
 
   resources :hypnosis, only: [:index, :show]
 
