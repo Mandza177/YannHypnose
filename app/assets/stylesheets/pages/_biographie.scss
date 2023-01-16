@@ -1,14 +1,38 @@
 h1{
   margin-bottom: 2px;
+  text-decoration: underline #F0A500;
 }
 
+.parcours{
+
+  h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    text-align: center;
+    text-decoration: underline #F0A500;
+    }
+}
+
+.informationsplus{
+  h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    text-align: center;
+    text-decoration: underline #F0A500;
+    }
+  }
+
 .roundimage img{
-margin: auto;
-width: 50%;
-border-radius: 50%;
-display: block;
-margin-top: 20px;
-margin-bottom: 70px;
+  margin: auto;
+  width: 50%;
+  border-radius: 50%;
+  display: block;
+  margin-top: 20px;
+  margin-bottom: 70px;
 }
 
 .space{
@@ -41,7 +65,7 @@ margin-bottom: 70px;
   font-size: 24px;
   text-align: center;
   height: auto;
-  
+
 
   ul {
     list-style-type: none;
