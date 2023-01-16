@@ -1,6 +1,7 @@
 h1{
   margin-bottom: 2px;
-  text-decoration: underline #F0A500;
+
+
 }
 
 .parcours{
@@ -32,7 +33,10 @@ h1{
   border-radius: 50%;
   display: block;
   margin-top: 20px;
-  margin-bottom: 70px;
+  margin-bottom: -18px;
+  text-align: center;
+  font-size: 35px;
+  font-family: $body-font;
 }
 
 .space{
