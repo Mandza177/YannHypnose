@@ -111,3 +111,66 @@ ul{
 .w-100 clearfix {
   margin-bottom: 0rem;
 }
+
+.offcanvas-header{
+  background: #F0A500;
+}
+
+.offcanvas-title{
+  color: black;
+  font-size: 25px;
+}
+
+.offcanvas-body{
+  background: black;
+  font-size: 20px;
+}
+
+.placeholdermenu{
+  font-size: 20px;
+  border-bottom: 2px solid #F0A500;
+}
+
+
+.dropdown-item li::marker{
+  list-style-type: none;
+  a:hover{
+    color: white;
+  }
+  margin-bottom: 6px;
+}
+
+.plandusite li{
+  list-style-type: none;
+  border-bottom: 2px solid #F0A500;
+}
+
+.tarifs{
+  border-bottom: 2px solid #F0A500;
+  list-style-type: none;
+}
+
+.localisation{
+  list-style-type: none;
+}
+
+.cabinets{
+  border-bottom: 2px solid #F0A500;
+  text-decoration: underline;
+}
+
+.dropdown-item:hover{
+  color: white;
+}
+
+.list-media li{
+  align-items: center;
+}
+
+.social{
+  text-decoration: underline;
+}
+
+.mediasocial{
+  border-bottom: 2px solid #F0A500;
+}

@@ -8,20 +8,68 @@
 
     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
     <%= javascript_include_tag "application", "data-turbo-track": "reload", defer: true %>
+  </head>
 
-      <div class="navbar navbar-expand-sm navbar-light navbar-lewagon">
+  <body>
+  <div class="navbar navbar-expand-sm navbar-light navbar-lewagon">
         <div class="container-fluid">
           <%= link_to "/", class: "navbar-brand" do %>
             <%= image_tag "svg/icone_homepage.png"%>
           <% end %>
-          <%= link_to "", class: "navbar-brand" do %>
+          <a class="btn btn-bg" data-bs-toggle="offcanvas" href="#offcanvasMenu" role="button" aria-controls="offcanvasMenu">
             <%= image_tag "svg/icone_menu.png"%>
-          <% end %>
+          </a>
+        </div>
+  </div>
+
+  <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasMenu" aria-labelledby="offcanvasMenuLabel">
+    <div class="offcanvas-header">
+      <h5 class="offcanvas-title" id="offcanvasMenuLabel">Bienvenue sur le site</h5>
+      <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body">
+      <div class="placeholdermenu">
+        Yann Lecocq <br>
+        Hypnose Ericksonienne à Nantes<br>
+        Tél: 06.09.82.16.04 <br>
+        <a class="contact" href="mailto:yannlecocqhypnose44@hotmail.com">Pour me contacter</a></li><br>
+      </div>
+
+      <%# <div class="plandusite">
+        <ul>
+          <li></a></li>
+          <li><a class="dropdown-item" href=""></a></li>
+          <li><a class="dropdown-item" href="#"></a></li>
+          <li><a class="dropdown-item" href="#"></a></li>
+        </ul>
+      </div> %>
+
+      <div class="tarifs">
+        <li><a class="dropdown-item" href="/tarif">Tarifs</a></li>
+      </div>
+
+      <div class="localisation">
+        Les Cabinets:
+        <div class="cabinets">
+        <li><a class="dropdown-item" href="https://chezjoia.fr/">Chez Joïa</a></li>
+        <li><a class="dropdown-item" href="https://www.espace-flesselles.com/">Espace Flesselles</a></li>
+        <li><a class="dropdown-item" href="https://www.facebook.com/Lammazenie/">Lammazenie</a></li>
+      </div>
+
+      <div class="mediasocial">
+        Pour me suivre :
+        <div class="social">
+        <li class="list-media"><a class="dropdown-item" href="https://www.instagram.com/yannlecocqhypnose44/">Instagram</a></li>
+        <li class="list-media"><a class="dropdown-item" href="https://www.facebook.com/YannLecocqhypnose44">Facebook</a></li>
+        <li class="list-media"><a class="dropdown-item" href="https://www.youtube.com/channel/UCN5KM6QS0w8BQpudeJYpn2A">Youtube</a></li>
         </div>
       </div>
-  </head>
 
-  <body>
+
+
+      </div>
+    </div>
+  </div>
     <%= yield %>
   </body>
 </html>
