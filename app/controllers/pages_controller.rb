@@ -13,4 +13,25 @@ class PagesController < ApplicationController
 
   def mention
   end
+
+  def seance
+  end
+
+  def hypnoseutile
+  end
+
+  def estimeconfianceensoi
+  end
+
+  def peursphobies
+  end
+
+  def arrettabac
+  end
+
+  def hypnoseregressive
+  end
+
+  def stressetanxiete
+  end
 end

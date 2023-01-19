@@ -114,11 +114,15 @@ ul{
 
 .offcanvas-header{
   background: #F0A500;
+  font-weight: bold;
+  padding-left: 153px;
+
 }
 
 .offcanvas-title{
   color: black;
   font-size: 25px;
+  text-align: center;
 }
 
 .offcanvas-body{
@@ -129,6 +133,11 @@ ul{
 .placeholdermenu{
   font-size: 20px;
   border-bottom: 2px solid #F0A500;
+  text-align: center;
+}
+
+.contact{
+  text-align: center;
 }
 
 
@@ -140,16 +149,21 @@ ul{
   margin-bottom: 6px;
 }
 
+.dropdown{
+  text-align: center;
+}
+
+
+.dropdown-item{
+  padding-left: 12px;
+  text-align: inherit;
+  font-size: 25px;
+  color: #F0A500;
+  background-color: black;
+}
+
 .plandusite li{
   list-style-type: none;
-  border-bottom: 2px solid #F0A500;
-}
-
-.bios{
-  border-bottom: 2px solid #F0A500;
-}
-
-.tarifs{
   border-bottom: 2px solid #F0A500;
 }
 
@@ -164,16 +178,35 @@ ul{
 
 .dropdown-item:hover{
   color: white;
+  background: black;
+  text-decoration: underline;
 }
 
 .list-media li{
   align-items: center;
 }
 
-.social{
-  text-decoration: underline;
+.dropdown-menu{
+  background-color: black;
+  li{
+    background-color: black;
+  }
 }
 
-.mediasocial{
+.dropdown mt-3{
+  font-size: 20px;
+}
+
+.btn-bg{
+  font-size: 25px;
+  display: list-item;
+}
+
+.avis{
   border-bottom: 2px solid #F0A500;
+}
+
+::marker{
+  list-style-type: none;
+  color: black;
 }
