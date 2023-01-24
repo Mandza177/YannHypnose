@@ -13,6 +13,8 @@ Rails.application.routes.draw do
   get "/hypnoseregressive",     to: "pages#hypnoseregressive"
   get "/stress",                to: "pages#stressetanxiete"
   get "/avis",                  to: "pages#avis"
+  get "/blog",                  to: "pages#blog"
+
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
 
   # Defines the root path route ("/")
