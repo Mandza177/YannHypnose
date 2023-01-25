@@ -21,9 +21,7 @@ Rails.application.routes.draw do
   get "/sommeil",               to: "pages#sommeil"
   get "/addiction",             to: "pages#addiction"
   get "/enfant",                to: "pages#enfant"
-
-
-
+  get "/retrospective",         to: "pages#retrospective"
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
 
   # Defines the root path route ("/")

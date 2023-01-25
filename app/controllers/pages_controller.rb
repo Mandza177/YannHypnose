@@ -58,4 +58,7 @@ class PagesController < ApplicationController
 
   def enfant
   end
+
+  def retrospective
+  end
 end
