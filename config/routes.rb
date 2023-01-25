@@ -15,6 +15,14 @@ Rails.application.routes.draw do
   get "/avis",                  to: "pages#avis"
   get "/blog",                  to: "pages#blog"
   get "/atelier",               to: "pages#atelier"
+  get "/acrophobie",            to: "pages#acrophobie"
+  get "/reves",                 to: "pages#reves"
+  get "/douleur",               to: "pages#douleur"
+  get "/sommeil",               to: "pages#sommeil"
+  get "/addiction",             to: "pages#addiction"
+  get "/enfant",                to: "pages#enfant"
+
+
 
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
 

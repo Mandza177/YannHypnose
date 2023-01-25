@@ -40,4 +40,22 @@ class PagesController < ApplicationController
 
   def blog
   end
+
+  def acrophobie
+  end
+
+  def reves
+  end
+
+  def douleur
+  end
+
+  def sommeil
+  end
+
+  def addiction
+  end
+
+  def enfant
+  end
 end
