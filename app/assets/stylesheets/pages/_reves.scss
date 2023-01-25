@@ -1,0 +1,26 @@
+.img-reves{
+  margin: auto;
+  width: 50%;
+  border-radius: 50%;
+  display: block;
+  margin-top: 20px;
+  margin-bottom: -18px;
+  text-align: center;
+  font-size: 35px;
+  font-family: $body-font;
+}
+
+.reve{
+  background-color: #191919;
+  font-family: $body-font;
+  font-size: 25px;
+  text-align: justify;
+  list-style-type: none;
+  padding: 19px;
+  border-radius: 5px;
+
+  ul{
+    list-style-type: none;
+  }
+
+}

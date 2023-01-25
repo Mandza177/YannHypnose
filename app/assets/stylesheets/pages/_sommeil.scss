@@ -1,0 +1,60 @@
+.img-sommeil{
+  margin: auto;
+  width: 50%;
+  border-radius: 50%;
+  display: block;
+  margin-top: 20px;
+  margin-bottom: -18px;
+  text-align: center;
+  font-size: 35px;
+  font-family: $body-font;
+}
+
+.sommeil{
+  background-color: #191919;
+  font-family: $body-font;
+  font-size: 25px;
+  text-align: justify;
+  list-style-type: none;
+  padding: 19px;
+  border-radius: 5px;
+
+  ul{
+    list-style-type: none;
+  }
+}
+
+.pbsommeil{
+  background-color: #191919;
+  font-family: $body-font;
+  font-size: 25px;
+  text-align: justify;
+  list-style-type: none;
+  padding: 19px;
+  border-radius: 5px;
+
+  ul{
+    list-style-type: none;
+  }
+}
+
+$aspect-ratios: (
+  "1x1": 100%,
+  "4x3": calc(3 / 4 * 100%),
+  "16x9": calc(9 / 16 * 100%),
+  "21x9": calc(9 / 21 * 100%)
+);
+
+.effetsinsomnies{
+  background-color: #191919;
+  font-family: $body-font;
+  font-size: 25px;
+  text-align: justify;
+  list-style-type: none;
+  padding: 19px;
+  border-radius: 5px;
+
+  ul{
+    list-style-type: none;
+  }
+}
