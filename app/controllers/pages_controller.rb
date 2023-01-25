@@ -34,4 +34,10 @@ class PagesController < ApplicationController
 
   def stressetanxiete
   end
+
+  def atelier
+  end
+
+  def blog
+  end
 end
