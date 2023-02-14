@@ -6,7 +6,7 @@
   height: 228px;
   display: flex;
   align-items: center;
-  color: #F0A500;
+  color:#F0A500;
   text-shadow: 8px 8px 8px black;
   box-shadow: #F0A500 1.95px 1.95px 2.6px;
   font-size: 30px;
@@ -31,10 +31,13 @@ background-position: center;
 display: grid;
 grid-template-columns: 1fr 1fr 1fr;
 grid-gap: 16px;
-color: #F0A500;
+color: #F0ECCF;
 text-shadow: 2px 2px 3px #F0A500;
 margin: 20px 20px 20px 20px;
 flex-grow: 1;
+.a{
+  color: #F0A500;
+}
 }
 
 .row-col-2{
@@ -60,7 +63,7 @@ align-items: center;
 color: #F0A500;
 text-shadow: 8px 8px 8px black;
 box-shadow: #F0A500 1.95px 1.95px 2.6px;
-font-size: 30px;
+font-size: 25px;
 font-weight: bold;
 border-radius: 5px;
 width: 100%;
@@ -68,6 +71,11 @@ max-width: 100%;
 justify-content: flex-start;
 flex-direction: column;
 height: 319px;
+}
+
+.cardshome_infos{
+  font-size: 25px;
+  color:white;
 }
 
 
